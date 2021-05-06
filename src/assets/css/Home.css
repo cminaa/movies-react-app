@@ -1,0 +1,15 @@
+.Home-buttons {
+    align-items: left;
+    padding: 0;
+}
+
+.Home-search-bar {
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,73 @@
+.Movie-button {
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    text-emphasis: bold;
+    text-align: center;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.Movie-button:hover {
+    color: rgba(245, 245, 245, 0.295);
+}
+
+.Home-button-clicked {
+    background-color: whitesmoke;
+    border: none;
+    color: #54767c;
+    text-emphasis: bold;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.Home-button:hover {
+    color: #54767c;
+    background-color: whitesmoke;
+}
+
+.Home-button {
+    background-color: rgba(245, 245, 245, 0.295);
+    color: whitesmoke;
+    border: none;
+    text-emphasis: bold;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.Load-button {
+    background-color: whitesmoke;
+    border: none;
+    color: #54767c;
+    text-emphasis: bold;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 3px;
+    width: 100%;
+}
+
+.Load-button:hover {
+    background-color: rgba(245, 245, 245, 0.295);
+    color: whitesmoke;
+}

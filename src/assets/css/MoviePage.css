@@ -1,0 +1,52 @@
+.Movie-content {
+    text-align: left;
+    padding: 0px;
+    margin-top: 15px;
+    transition: 0.3s;
+    background-color: rgba(72, 72, 82, 0.815);
+    width: 100%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.63);
+}
+
+.Movie-img-video {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.Movie-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.Movie-text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.Movie-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+}
+
+.Movie-text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    padding: 10px;
+    color: rgb(147, 143, 155);
+    margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    .Movie-content img {
+        height: 300px;
+    }
+}

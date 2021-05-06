@@ -1,0 +1,43 @@
+.Item-card {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    transition: 0.3s;
+    background-color: rgba(72, 72, 82, 0.815);
+    width: auto;
+}
+
+.Item-card:hover {
+    transform: scale(1.045);
+    cursor: pointer;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.705);
+    z-index: 10;
+}
+
+.Item-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.Item-heading {
+    color: rgba(245, 245, 245, 0.74);
+    font-size: 17px;
+    text-decoration: bold;
+    padding: 5px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+    .Item-img {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Item-card {
+        padding: 0px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+.Grid-background {
+    background-color: none;
+    max-width: 100%;
+    margin: 10px auto auto auto;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4px;
+}
+
+@media only screen and (max-width: 800px) {
+    .Grid-background {
+        grid-template-columns: auto;
+    }
+}
